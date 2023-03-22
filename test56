@@ -1,0 +1,45 @@
+/* Rounded corners for containers */
+.container-1Kj0S7 {
+  border-radius: 10px;
+}
+
+/* Clean icons */
+.guildIcon-3tNVMD,
+.avatar-1BXaQj,
+.avatar-3uk_u9,
+.avatar-2QPRYb,
+.avatar-2cgfh4 {
+  border-radius: 50%;
+}
+
+/* Smooth animations */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Useful features */
+/* TODO: Add useful features here */
+
+/* Color scheme */
+:root {
+  --primary-color: #7289DA;
+  --secondary-color: #3F3F3F;
+  --text-color: #DCDDDE;
+}
+
+/* Font styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-color);
+}
